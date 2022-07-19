@@ -1,5 +1,5 @@
 # Parcel List
----
+
 #### Technologies that were used:
 
 Webpack, ReactJS, CSS/SCSS
