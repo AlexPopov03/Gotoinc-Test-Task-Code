@@ -22,4 +22,4 @@ If user won`t fill one of **important fields (*)**, user will have a modal windo
 
 Every parcel has *'Delete'* button, which allows the user to delete the selected parcel from the list
 
-Same way, each package has its own "Parcel number", which is displayed as the first element in the parcel
+Same way, each package has its own *"Parcel number"*, which is displayed as the first element in the parcel
