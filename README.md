@@ -14,12 +14,12 @@ Webpack, ReactJS, CSS/SCSS
 
 #### Application logic:
 
-The user should enters the parcel data in form, as: departure city, receiving city, type of parcel, date of dispatch and parcel description;
+The user should enters the parcel data in form, as: *departure city, receiving city, type of parcel, date of dispatch and parcel description*
 
-Then add this parcel data in parcel list under the form by using the button "Add parcel". Form has important fields (*), as:  departure city, receiving city and date of dispatch and non important: type of parcel and parcel description
+Then add this parcel data in parcel list under the form by using the button *'Add parcel'*. Form has **important fields (*)**, as:  *departure city, receiving city and date of dispatch* and **non important**: *type of parcel and parcel description*
 
-If user won`t fill one of important fields (*), user will have a modal window that tells the user that he needs to fill in all the important fields
+If user won`t fill one of **important fields (*)**, user will have a modal window that tells the user that he needs to fill in all the important fields
 
-Every parcel has 'Delete' button, which allows the user to delete the selected parcel from the list
+Every parcel has *'Delete'* button, which allows the user to delete the selected parcel from the list
 
 Same way, each package has its own "Parcel number", which is displayed as the first element in the parcel
