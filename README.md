@@ -18,7 +18,7 @@ The user should enters the parcel data in form, as: *departure city, receiving c
 
 Then add this parcel data in parcel list under the form by using the button *'Add parcel'*. Form has **important fields (*)**, as:  *departure city, receiving city and date of dispatch* and **non important**: *type of parcel and parcel description*
 
-If user won`t fill one of **important fields (*)**, user will have a modal window that tells the user that he needs to fill in all the important fields
+If user won`t fill one of **important fields (*)**, user will have a modal window which tells the user that an error has occurred and he needs to fill in all the **important fields (*)**. User can close this modal window by using the button *'Close'* or click on backdrop (aroud the modal window)
 
 Every parcel has *'Delete'* button, which allows the user to delete the selected parcel from the list
 
