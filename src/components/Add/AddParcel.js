@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Card from '../UI/Card';
 import Button from '../UI/Button';
-import styles from '../Add/AddParcel.module.css';
+import styles from './AddParcel.module.css';
 import ErrorWindow from '../UI/ErrorWindow';
 
 const AddParcel = props => {

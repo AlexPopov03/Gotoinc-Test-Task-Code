@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import Card from './Card';
-import styles from '../UI/ErrorWindow.module.css'
+import styles from './ErrorWindow.module.css'
 
 const ErrorWindow = (props) => {
   return (

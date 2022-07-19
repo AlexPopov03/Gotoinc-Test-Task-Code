@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../UI/Card';
 import Button from '../UI/Button';
-import styles from '../Add/ParcelList.module.css'
+import styles from './ParcelList.module.css'
 
 const ParcelList = (props) => {
 
@@ -17,6 +17,7 @@ const ParcelList = (props) => {
               <ol>Parcel type: {parcel.type}</ol>                     
               <ol>Date: ({parcel.date})</ol>
               <ol>Description: {parcel.description}</ol>
+              
               <Button onClick={() => props.remove(parcel)}>Delete</Button>                  
             </li>
             )}
