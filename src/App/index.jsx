@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import AddParcel from '../components/Add/AddParcel'
 import ParcelList from '../components/Add/ParcelList'
-import EditParcel from '../components/Edit'
+import EditParcel from '../components/Edit/EditParcel'
 
 import { ParcelsList, Parcel } from './context'
 
