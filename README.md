@@ -8,13 +8,15 @@ Webpack, ReactJS, Bootstrap
 
 The user should enters the parcel data in form, as: *departure city, receiving city, type of parcel, date of dispatch and parcel description*
 
-Then add this parcel data in parcel list under the form by using the button *'Add parcel'*. Form has **important fields (*)**, as:  *departure city, receiving city and date of dispatch* and **non important**: *type of parcel and parcel description*
+Then add this parcel data in parcel list under the form by using the button *'Save parcel'*. Form has *important fields (*)*, as:  *departure city, receiving city and date of dispatch* and *non important: type of parcel and parcel description*
 
-If user won`t fill one of **important fields (*)**, user will have a modal window which tells the user that an error has occurred and he needs to fill in all the **important fields (*)**. User can close this modal window by using the button *'Close'* or click on backdrop (aroud the modal window)
+If user won`t fill one of *important fields (*)*, user will pop up a modal window which tells the user that an error has occurred and he needs to fill in all the *important fields (*)*. User can close this modal window by using the button *'Continue'* or click on backdrop (aroud the modal window)
 
-Every parcel has *'Delete'* button, which allows the user to delete the selected parcel from the list
+Each parcel has *'Delete'* button, which allows the user to delete the selected parcel from the list
 
-Same way, each package has its own *"Parcel number"*, which is displayed as the first element in the parcel
+Same way, each parcel has *'Edit'* button, if user press this button he will pop up a modal window where user can change information about parcel and save it by press *'Save parcel'* button. If user change his mind he can just close this window by press cross in top right corner or *'Close'* button
+
+Each package has unique *id*
 
 
 # Getting Started
