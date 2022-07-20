@@ -1,10 +1,10 @@
 # Parcel List
 
-### Technologies that were used:
+## Technologies that were used:
 
 Webpack, Bootstrap, SCSS, ReactJs
 
-### Application logic:
+## Application logic:
 
 The user should enters the parcel data in form, as: *departure city, receiving city, type of parcel, date of dispatch and parcel description*
 
