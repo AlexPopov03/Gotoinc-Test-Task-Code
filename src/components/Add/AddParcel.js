@@ -76,7 +76,7 @@ const AddParcel = (props) => {
       <Card className={styles.input}>
         <form onSubmit={addParcelHandler}>
           <div className="input-group mb-3">
-            <label htmlFor="departur-city">Departure city:</label>
+            <label htmlFor="departur-city">*Departure city:</label>
             <input
               className="needs-validation"
               placeholder="Odesa"
