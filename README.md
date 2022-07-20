@@ -2,7 +2,7 @@
 
 ### Technologies that were used:
 
-Webpack, ReactJS, Bootstrap
+Webpack, Bootstrap, SCSS, ReactJs
 
 ### Application logic:
 
