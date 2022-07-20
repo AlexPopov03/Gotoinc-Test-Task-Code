@@ -2,13 +2,7 @@
 ---
 #### Technologies that were used:
 
-Webpack, ReactJS, CSS/SCSS
-
-#### How to start the application:
-
-1. You can clone this repository: https://github.com/AlexPopov03/Gotoinc-Test-Task-Code.git in your brand new folder and open it in code editor
-
-2. Start your code editor. In the initial window, select the Clone repository section. Enter or specify the location of the repository, and then click the Clone button
+Webpack, ReactJS, Bootstrap
 
 #### Application logic:
 
