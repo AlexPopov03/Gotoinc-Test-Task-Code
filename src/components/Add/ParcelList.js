@@ -11,10 +11,10 @@ const ParcelList = () => {
     const { parcel } = props
     const labelMap = {
       id: 'Id',
-      originCity: 'Origin city',
-      destinationCity: 'Destination city',
+      originCity: 'Departure city',
+      destinationCity: 'Receiving city',
       type: 'Parcel type',
-      date: 'Date',
+      date: 'Date of dispatch',
       desc: 'Description'
     }
 
@@ -23,19 +23,6 @@ const ParcelList = () => {
         <label style={{ fontWeight: 'bold' }}>{labelMap[k]}:</label> {value}
       </li>
     ))
-  }
-
-  function List() {
-      return <ul className="list-group">
-          {parcelsList.map((parcel) => {
-              return (
-                  <>
-                      <ListItems parcel={parcel}></ListItems>
-                      <ButtonGroup parcel={parcel}></ButtonGroup>
-                  </>
-              )
-          })}
-      </ul>
   }
 
   function ButtonGroup(props) {
@@ -58,6 +45,19 @@ const ParcelList = () => {
             </button>
         </div>
     )
+  }
+
+  function List() {
+      return <ul className="list-group">
+          {parcelsList.map((parcel) => {
+              return (
+                  <>
+                      <ListItems parcel={parcel}></ListItems>
+                      <ButtonGroup parcel={parcel}></ButtonGroup>
+                  </>
+              )
+          })}
+      </ul>
   }
 
   return (
