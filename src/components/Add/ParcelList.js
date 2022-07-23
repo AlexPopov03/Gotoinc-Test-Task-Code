@@ -1,11 +1,11 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext, useEffect} from 'react'
 import Card from '../UI/Card'
 import styles from './ParcelList.module.css'
 import { ParcelsList, Parcel } from '../../App/context'
 
 const ParcelList = () => {
   const [parcelsList, setParcelsList] = useContext(ParcelsList)
-    const [parcel, setParcel] = useContext(Parcel)
+  const [parcel, setParcel] = useContext(Parcel)
 
   function ListItems(props) {
     const { parcel } = props
@@ -51,10 +51,10 @@ const ParcelList = () => {
       return <ul className="list-group">
           {parcelsList.map((parcel) => {
               return (
-                  <>
+                  <React.Fragment key={parcel.id}>
                       <ListItems parcel={parcel}></ListItems>
                       <ButtonGroup parcel={parcel}></ButtonGroup>
-                  </>
+                  </React.Fragment>
               )
           })}
       </ul>
